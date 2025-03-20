@@ -78,7 +78,7 @@ with the previously described strategy to enable researchers to do just that and
 generate actual queries becomes the responsibility of individual researchers (and the tasks of interests). One possible strategy that described in [1] where 
 one query is generated per sub-topic by concatenating the topic prelude to the sub-topic sentences.
 
-We have done our best to ensure that the <s> markup is consistent and valid. 
+We have done our best to ensure that the &lt;s&gt; markup is consistent and valid. 
 However, some errors may have creeped through since the annotation has been done by hand. Also, in some cases, text may not have been assigned to neither prelude nor 
 a particular question. This is usually the case for text that is not relevant to either part of the discourse such as salutations (e.g., "Hello...") 
 and expressions of gratitude (e.g., "Many thanks in advance..").
@@ -94,7 +94,7 @@ seqid - The topic's sequence ID. This is the same as the number in a topic's fil
 postid - The MathOverflow questions ID from which the topic is derived.
 doc_arxivid - The ArXiv document ID associated with the judgement represented by the record.
 citationid - The citation sequence ID of the document doc_arxivid. This is used to identify a citated document in the set of all cited documents in the answer.
-subtopic - The subtopic id, a number that is the same as that in the corresponding "qid" attribute of the <s> tags in the topic file.
+subtopic - The subtopic id, a number that is the same as that in the corresponding "qid" attribute of the &lt;s&gt; tags in the topic file.
 
 Please note that relevant documents in the judgements are represented by their arxiv ID, which has been extracted from ArXiv metadata.
 Therefore, matching physical document filenames to judgements may require additional effort as this is dependent on the MREC distribution and file naming strategy.
