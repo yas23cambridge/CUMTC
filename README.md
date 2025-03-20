@@ -59,16 +59,16 @@ to the prelude or a specific question. This information is encoded using attribu
 (a) A prelude sentence
 ```
 <s id="1" type="p">It is well known that if c(K)=2n+1, then u(K) is less than n+1.</s>
-
-In this example, the <s> markup indicates that the sentence is the first sentence in the topic (id="1") and that it belongs to the prelude (type="p").
+```
+In this example, the &lt;s&gt; markup indicates that the sentence is the first sentence in the topic (id="1") and that it belongs to the prelude (type="p").
 
 (b) A sentences belonging to sub-topic 2
-
+```
 <s id="5" type="q" qid="2">(2) Is there some reference for the specific case of the Universal enveloping algebra of a finite-dimensional 
 semi-simple Lie algebra over C?</s>
 ```
 
-In this example, the <s> markup indicates that the sentence is the fifth sentence in the topic (id="5"), is a question sentence (type="q") and, specifically, to sub-topic 2 (qid="2").
+In this example, the &lt;s&gt; markup indicates that the sentence is the fifth sentence in the topic (id="5"), is a question sentence (type="q") and, specifically, to sub-topic 2 (qid="2").
 
 
 ## 3.2. Some notes on the topic markup
