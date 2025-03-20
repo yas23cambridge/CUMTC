@@ -48,7 +48,7 @@ judgements.csv - A CSV file encoding the relevance judgements (see section 4)
 The topics included with the test collection can be found under the "topics" directory.
 There is a total of 120 files under this directory - one for each topic/MathOverflow thread.
 
-3.1. Topic format
+### 3.1. Topic format
 
 Topics are represented by a combination of HTML (adapted from the original MO data dump), MathML (derived from the original LaTeX) and
 sentence tags. 
@@ -71,7 +71,7 @@ semi-simple Lie algebra over C?</s>
 In this example, the &lt;s&gt; markup indicates that the sentence is the fifth sentence in the topic (id="5"), is a question sentence (type="q") and, specifically, to sub-topic 2 (qid="2").
 
 
-## 3.2. Some notes on the topic markup
+### 3.2. Some notes on the topic markup
 
 As highlighted in [1], our aim has been to distribute topics from which researchers can generate queries as needed, in the spirit of TREC. We have annotated topics 
 with the previously described strategy to enable researchers to do just that and experiment with different query strategies. As a result, the strategy used to 
