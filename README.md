@@ -1,9 +1,9 @@
 
-The Cambridge MathIR Test Collection (version 1.0)
-Yiannos Stathopoulos and Simone Teufel.
+# The Cambridge MathIR Test Collection (version 1.0)
+# Yiannos Stathopoulos and Simone Teufel.
 
 
-1. Introduction
+## 1. Introduction
 ---------------
 
 Thank you for your interest in downloading our MathIR test collection and using it in your research.
@@ -35,14 +35,14 @@ from
 
 http://www.cl.cam.ac.uk/~yas23/
 
-2. Contents
+## 2. Contents
 -----------
 
 README.txt - This readme file
 topics/	- A directory with 120 html/text files containing topic data.
 judgements.csv - A CSV file encoding the relevance judgements (see section 4)
 
-3. Topics 
+## 3. Topics 
 ---------
 
 The topics included with the test collection can be found under the "topics" directory.
@@ -57,7 +57,7 @@ Sentence tags are used to tokenize sentences as described in [1]. In short, sent
 to the prelude or a specific question. This information is encoded using attributes as shown in the following two examples:
 
 (a) A prelude sentence
-
+```
 <s id="1" type="p">It is well known that if c(K)=2n+1, then u(K) is less than n+1.</s>
 
 In this example, the <s> markup indicates that the sentence is the first sentence in the topic (id="1") and that it belongs to the prelude (type="p").
@@ -66,11 +66,12 @@ In this example, the <s> markup indicates that the sentence is the first sentenc
 
 <s id="5" type="q" qid="2">(2) Is there some reference for the specific case of the Universal enveloping algebra of a finite-dimensional 
 semi-simple Lie algebra over C?</s>
+```
 
 In this example, the <s> markup indicates that the sentence is the fifth sentence in the topic (id="5"), is a question sentence (type="q") and, specifically, to sub-topic 2 (qid="2").
 
 
-3.2. Some notes on the topic markup
+## 3.2. Some notes on the topic markup
 
 As highlighted in [1], our aim has been to distribute topics from which researchers can generate queries as needed, in the spirit of TREC. We have annotated topics 
 with the previously described strategy to enable researchers to do just that and experiment with different query strategies. As a result, the strategy used to 
@@ -82,7 +83,7 @@ However, some errors may have creeped through since the annotation has been done
 a particular question. This is usually the case for text that is not relevant to either part of the discourse such as salutations (e.g., "Hello...") 
 and expressions of gratitude (e.g., "Many thanks in advance..").
 
-4. The relevance Judgements
+## 4. The relevance Judgements
 ---------------------------
 
 The relevance judgements are distributed as the CSV file "judgements.csv", which will refer to as "the judgements file" from hence forth. 
@@ -98,7 +99,7 @@ subtopic - The subtopic id, a number that is the same as that in the correspondi
 Please note that relevant documents in the judgements are represented by their arxiv ID, which has been extracted from ArXiv metadata.
 Therefore, matching physical document filenames to judgements may require additional effort as this is dependent on the MREC distribution and file naming strategy.
 
-5. License
+## 5. License
 ----------
 
 This test collection (topics, relevance judgements) is distributed under 
