@@ -16,6 +16,7 @@ Joint Conference on Natural Language Processing of the Asian Federation of Natur
 (ACL-IJCNLP 2015). Beijing, China, 2015.
 
 The following BibTeX code may be of use:
+```
 @InProceedings{stathopoulos-teufel:2015:ACL-IJCNLP,
   author    = {Stathopoulos, Yiannos  and  Teufel, Simone},
   title     = {Retrieval of Research-level Mathematical Information Needs: A Test Collection and Technical Terminology Experiment},
@@ -27,7 +28,7 @@ The following BibTeX code may be of use:
   pages     = {334--340},
   url       = {http://www.aclweb.org/anthology/P15-2055}
 }
-
+```
 Throughout the following text, the above paper will be referenced as [1].
 
 This test collection is distributed by Yiannos A. Stathopoulos and Simone Teufel, and has been downloaded
